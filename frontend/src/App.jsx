@@ -38,7 +38,8 @@ function App() {
         setToken(data.access_token);
         localStorage.setItem('access_token', data.access_token);
       } else {
-        alert("Invalid credentials. Try admin/admin");
+        const err = await res.json().catch(() => ({ detail: `Server error ${res.status}` }));
+        alert(`Login failed: ${err.detail || "Invalid credentials"}`);
       }
     } catch (err) {
       console.error("Login failed:", err);

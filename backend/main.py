@@ -74,7 +74,7 @@ def verify_token(token: str = Depends(oauth2_scheme)):
 @app.post("/login")
 def login(req: LoginRequest):
     print(f"Login attempt received for user: {req.username}")
-    if req.username.lower() == "admin" and req.password == "admin":
+    if req.username.lower() == "admin12" and req.password == "admin34":
         return {"access_token": create_access_token({"sub": req.username}), "token_type": "bearer"}
     
     # Optional debug for local dev or log inspection
