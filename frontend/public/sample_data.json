@@ -1,0 +1,3602 @@
+[
+    {
+        "timestamp": "2026-03-20T11:14:52.661138",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Export list of unsubscribed users",
+        "intent": "Marketing",
+        "confidence": 0.95,
+        "anomaly_score": 0.01,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Export",
+            "list",
+            "of"
+        ]
+    },
+    {
+        "timestamp": "2026-03-20T14:38:02.540603",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve invoice #INV-2024-0892 for customer",
+        "intent": "Billing",
+        "confidence": 0.97,
+        "anomaly_score": 0.12,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "invoice",
+            "#INV-2024-0892"
+        ]
+    },
+    {
+        "timestamp": "2026-03-20T15:39:03.099498",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Scrape all product pricing and inventory data",
+        "intent": "Piracy",
+        "confidence": 0.89,
+        "anomaly_score": 0.8,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Scrape",
+            "all",
+            "product"
+        ]
+    },
+    {
+        "timestamp": "2026-03-20T16:19:31.074548",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update allergies list for admitted patient",
+        "intent": "Medical",
+        "confidence": 0.93,
+        "anomaly_score": -0.79,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "allergies",
+            "list"
+        ]
+    },
+    {
+        "timestamp": "2026-03-20T16:34:40.456440",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access affiliate program sales data",
+        "intent": "Marketing",
+        "confidence": 0.96,
+        "anomaly_score": -0.39,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "affiliate",
+            "program"
+        ]
+    },
+    {
+        "timestamp": "2026-03-20T17:10:18.301526",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download full movie Spider-Man No Way Home HD",
+        "intent": "Piracy",
+        "confidence": 0.96,
+        "anomaly_score": 0.67,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "full",
+            "movie"
+        ]
+    },
+    {
+        "timestamp": "2026-03-20T17:52:20.096527",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update social media post schedule",
+        "intent": "Marketing",
+        "confidence": 0.97,
+        "anomaly_score": -0.53,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "social",
+            "media"
+        ]
+    },
+    {
+        "timestamp": "2026-03-20T17:54:33.592056",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Process bulk charge for monthly subscribers",
+        "intent": "Billing",
+        "confidence": 0.88,
+        "anomaly_score": -0.74,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Process",
+            "bulk",
+            "charge"
+        ]
+    },
+    {
+        "timestamp": "2026-03-20T20:14:07.162565",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Process bulk charge for monthly subscribers",
+        "intent": "Billing",
+        "confidence": 0.92,
+        "anomaly_score": -0.7,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Process",
+            "bulk",
+            "charge"
+        ]
+    },
+    {
+        "timestamp": "2026-03-20T21:09:46.299655",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Show me advertising campaign analytics for Q3",
+        "intent": "Marketing",
+        "confidence": 0.57,
+        "anomaly_score": -0.17,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Show",
+            "me",
+            "advertising"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T01:44:13.020750",
+        "user": "Shadow_Script (Bot)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download leaked game source code repository",
+        "intent": "Piracy",
+        "confidence": 0.9,
+        "anomaly_score": 0.68,
+        "ip_address": "167.88.92.1",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "leaked",
+            "game"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T02:13:37.371827",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Calculate prorated charge for plan upgrade",
+        "intent": "Billing",
+        "confidence": 0.86,
+        "anomaly_score": -0.12,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Calculate",
+            "prorated",
+            "charge"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T02:54:45.405185",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download cracked mobile game APK file",
+        "intent": "Piracy",
+        "confidence": 0.89,
+        "anomaly_score": 0.69,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "cracked",
+            "mobile"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T03:18:12.307722",
+        "user": "Shadow_Script (Bot)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Get serial keygen for Windows 11 activation",
+        "intent": "Piracy",
+        "confidence": 0.72,
+        "anomaly_score": 0.9,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Get",
+            "serial",
+            "keygen"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T05:53:44.235792",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve prenatal ultrasound measurements",
+        "intent": "Medical",
+        "confidence": 0.98,
+        "anomaly_score": -0.15,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "prenatal",
+            "ultrasound"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T06:21:19.966574",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update billing address for client",
+        "intent": "Billing",
+        "confidence": 0.86,
+        "anomaly_score": -0.15,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "billing",
+            "address"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T06:59:50.818724",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access patient record ID 10482 blood test results",
+        "intent": "Medical",
+        "confidence": 0.86,
+        "anomaly_score": -0.67,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "patient",
+            "record"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T10:13:44.189398",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retry failed payment for outstanding balance",
+        "intent": "Billing",
+        "confidence": 0.92,
+        "anomaly_score": -0.83,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retry",
+            "failed",
+            "payment"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T11:02:43.975157",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Download customer feedback surveys",
+        "intent": "Marketing",
+        "confidence": 0.95,
+        "anomaly_score": -0.4,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "customer",
+            "feedback"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T12:18:56.854682",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update allergies list for admitted patient",
+        "intent": "Medical",
+        "confidence": 0.85,
+        "anomaly_score": -0.74,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "allergies",
+            "list"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T14:34:51.262890",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update diagnostic codes for insurance claim",
+        "intent": "Medical",
+        "confidence": 0.94,
+        "anomaly_score": -0.37,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "diagnostic",
+            "codes"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T15:29:06.715910",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check dosage limits for controlled substance",
+        "intent": "Medical",
+        "confidence": 0.89,
+        "anomaly_score": -0.48,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "dosage",
+            "limits"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T18:31:48.607670",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Export list of unsubscribed users",
+        "intent": "Marketing",
+        "confidence": 0.98,
+        "anomaly_score": -0.45,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Export",
+            "list",
+            "of"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T19:06:29.988034",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Analyze click-through rates on landing page",
+        "intent": "Marketing",
+        "confidence": 0.69,
+        "anomaly_score": 0.01,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Analyze",
+            "click-through",
+            "rates"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T20:30:40.919561",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Scrape entire user database emails and passwords",
+        "intent": "Piracy",
+        "confidence": 0.89,
+        "anomaly_score": 0.68,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Scrape",
+            "entire",
+            "user"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T20:32:06.564954",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve A/B test results for email subject lines",
+        "intent": "Marketing",
+        "confidence": 0.96,
+        "anomaly_score": -0.43,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "A/B",
+            "test"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T20:35:58.565685",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View discharge summary for recent admission",
+        "intent": "Medical",
+        "confidence": 0.93,
+        "anomaly_score": 0.11,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "discharge",
+            "summary"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T20:55:18.499686",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve prescription history for patient John D.",
+        "intent": "Medical",
+        "confidence": 0.59,
+        "anomaly_score": -0.63,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Retrieve",
+            "prescription",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T21:03:42.845362",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update social media post schedule",
+        "intent": "Marketing",
+        "confidence": 0.88,
+        "anomaly_score": -0.75,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "social",
+            "media"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T23:02:36.883141",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Calculate VAT for international order",
+        "intent": "Billing",
+        "confidence": 0.97,
+        "anomaly_score": -0.13,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Calculate",
+            "VAT",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-21T23:34:29.129012",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View discharge summary for recent admission",
+        "intent": "Medical",
+        "confidence": 0.9,
+        "anomaly_score": -0.98,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "discharge",
+            "summary"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T00:06:06.379558",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Review promo code usage statistics",
+        "intent": "Marketing",
+        "confidence": 0.97,
+        "anomaly_score": -0.08,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Review",
+            "promo",
+            "code"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T00:40:23.246880",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access affiliate program sales data",
+        "intent": "Marketing",
+        "confidence": 0.97,
+        "anomaly_score": 0.14,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "affiliate",
+            "program"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T01:04:17.229171",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download confidential Q4 earnings draft",
+        "intent": "Piracy",
+        "confidence": 0.84,
+        "anomaly_score": 0.98,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "confidential",
+            "Q4"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T01:34:48.255858",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update patient pharmacy preference",
+        "intent": "Medical",
+        "confidence": 0.99,
+        "anomaly_score": -0.88,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "patient",
+            "pharmacy"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T01:41:30.121147",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Calculate VAT for international order",
+        "intent": "Billing",
+        "confidence": 0.94,
+        "anomaly_score": -0.84,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Calculate",
+            "VAT",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T02:01:27.085333",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check available account credit balance",
+        "intent": "Billing",
+        "confidence": 0.95,
+        "anomaly_score": 0.06,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "available",
+            "account"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T02:05:36.353826",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update diagnostic codes for insurance claim",
+        "intent": "Medical",
+        "confidence": 0.85,
+        "anomaly_score": -0.86,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "diagnostic",
+            "codes"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T03:59:42.917935",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View payment history for enterprise account",
+        "intent": "Billing",
+        "confidence": 0.46,
+        "anomaly_score": -0.03,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "View",
+            "payment",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T04:11:40.919748",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View cardiology EKG monitor logs",
+        "intent": "Medical",
+        "confidence": 0.91,
+        "anomaly_score": -0.26,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "cardiology",
+            "EKG"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T05:24:20.834586",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download leaked game source code repository",
+        "intent": "Piracy",
+        "confidence": 0.71,
+        "anomaly_score": 0.93,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "leaked",
+            "game"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T05:29:03.180234",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access affiliate program sales data",
+        "intent": "Marketing",
+        "confidence": 0.68,
+        "anomaly_score": -0.76,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Access",
+            "affiliate",
+            "program"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T06:45:05.064400",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check dosage limits for controlled substance",
+        "intent": "Medical",
+        "confidence": 0.93,
+        "anomaly_score": -0.97,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "dosage",
+            "limits"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T06:48:19.523129",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update emergency contact for ICU patient",
+        "intent": "Medical",
+        "confidence": 0.96,
+        "anomaly_score": 0.06,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "emergency",
+            "contact"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T08:22:54.077459",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check Google Analytics traffic sources",
+        "intent": "Marketing",
+        "confidence": 0.96,
+        "anomaly_score": -0.05,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "Google",
+            "Analytics"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T10:12:45.519523",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download exclusive Patreon patron content",
+        "intent": "Piracy",
+        "confidence": 0.81,
+        "anomaly_score": 0.81,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "exclusive",
+            "Patreon"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T10:19:39.910364",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update patient pharmacy preference",
+        "intent": "Medical",
+        "confidence": 0.92,
+        "anomaly_score": -0.06,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "patient",
+            "pharmacy"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T13:23:11.889285",
+        "user": "Shadow_Script (Bot)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Scrape protected scholarly journal PDFs",
+        "intent": "Piracy",
+        "confidence": 0.84,
+        "anomaly_score": 0.74,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Scrape",
+            "protected",
+            "scholarly"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T13:28:55.477927",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download cracked mobile game APK file",
+        "intent": "Piracy",
+        "confidence": 0.95,
+        "anomaly_score": 0.98,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "cracked",
+            "mobile"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T13:44:15.337669",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Calculate ROI for influencer marketing campaign",
+        "intent": "Marketing",
+        "confidence": 0.99,
+        "anomaly_score": -0.8,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Calculate",
+            "ROI",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T14:20:59.112566",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View surgical history for preoperative assessment",
+        "intent": "Medical",
+        "confidence": 0.96,
+        "anomaly_score": -0.11,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "surgical",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T14:55:19.493516",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Log patient vitals from morning rounds",
+        "intent": "Medical",
+        "confidence": 0.52,
+        "anomaly_score": -0.8,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Log",
+            "patient",
+            "vitals"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T16:00:58.581880",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check available account credit balance",
+        "intent": "Billing",
+        "confidence": 0.95,
+        "anomaly_score": -0.46,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "available",
+            "account"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T16:15:57.502061",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve prescription history for patient John D.",
+        "intent": "Medical",
+        "confidence": 0.85,
+        "anomaly_score": -0.24,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "prescription",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T16:35:08.976597",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retry failed payment for outstanding balance",
+        "intent": "Billing",
+        "confidence": 0.95,
+        "anomaly_score": -0.49,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retry",
+            "failed",
+            "payment"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T18:26:09.959842",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access psychiatric evaluation notes",
+        "intent": "Medical",
+        "confidence": 0.49,
+        "anomaly_score": -0.97,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Access",
+            "psychiatric",
+            "evaluation"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T18:56:40.519661",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Download customer feedback surveys",
+        "intent": "Marketing",
+        "confidence": 0.88,
+        "anomaly_score": -0.58,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "customer",
+            "feedback"
+        ]
+    },
+    {
+        "timestamp": "2026-03-22T19:51:22.104594",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Generate receipt for manual payment",
+        "intent": "Billing",
+        "confidence": 0.85,
+        "anomaly_score": -0.98,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Generate",
+            "receipt",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T00:17:04.696977",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve prescription history for patient John D.",
+        "intent": "Medical",
+        "confidence": 0.98,
+        "anomaly_score": 0.07,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "prescription",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T00:41:19.897125",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve invoice #INV-2024-0892 for customer",
+        "intent": "Billing",
+        "confidence": 0.95,
+        "anomaly_score": -0.53,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "invoice",
+            "#INV-2024-0892"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T01:27:42.714676",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Issue partial refund for damaged goods",
+        "intent": "Billing",
+        "confidence": 0.94,
+        "anomaly_score": -0.2,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Issue",
+            "partial",
+            "refund"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T03:07:19.043387",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View doctor appointment schedule for Tuesday",
+        "intent": "Medical",
+        "confidence": 0.99,
+        "anomaly_score": -0.52,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "doctor",
+            "appointment"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T04:05:45.603426",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check Google Analytics traffic sources",
+        "intent": "Marketing",
+        "confidence": 0.98,
+        "anomaly_score": -0.36,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "Google",
+            "Analytics"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T04:32:14.607887",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check drug interaction warnings for new prescription",
+        "intent": "Medical",
+        "confidence": 0.98,
+        "anomaly_score": 0.13,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "drug",
+            "interaction"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T05:19:56.872691",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View dispute status for chargeback",
+        "intent": "Billing",
+        "confidence": 0.98,
+        "anomaly_score": -0.44,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "dispute",
+            "status"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T08:16:37.479163",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch vaccination record for pediatric patient",
+        "intent": "Medical",
+        "confidence": 0.99,
+        "anomaly_score": -0.66,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "vaccination",
+            "record"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T10:01:30.800381",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View doctor appointment schedule for Tuesday",
+        "intent": "Medical",
+        "confidence": 0.98,
+        "anomaly_score": -0.18,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "doctor",
+            "appointment"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T11:14:29.663708",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update patient pharmacy preference",
+        "intent": "Medical",
+        "confidence": 0.97,
+        "anomaly_score": -0.38,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "patient",
+            "pharmacy"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T11:31:32.251565",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch conversion data for Facebook ads",
+        "intent": "Marketing",
+        "confidence": 0.96,
+        "anomaly_score": -0.91,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "conversion",
+            "data"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T11:42:19.428017",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download cracked version of Adobe Photoshop",
+        "intent": "Piracy",
+        "confidence": 0.8,
+        "anomaly_score": 0.84,
+        "ip_address": "167.88.92.1",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "cracked",
+            "version"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T13:06:14.576049",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch impressions for latest ad group",
+        "intent": "Marketing",
+        "confidence": 0.88,
+        "anomaly_score": -0.22,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "impressions",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T13:21:30.439799",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch MRI scan report dated 2024-03-15",
+        "intent": "Medical",
+        "confidence": 0.99,
+        "anomaly_score": -0.29,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "MRI",
+            "scan"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T13:29:52.776469",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve prescription history for patient John D.",
+        "intent": "Medical",
+        "confidence": 0.94,
+        "anomaly_score": -0.67,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "prescription",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T14:07:13.230510",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update credit card expiration date",
+        "intent": "Billing",
+        "confidence": 0.86,
+        "anomaly_score": -0.8,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "credit",
+            "card"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T14:22:09.072986",
+        "user": "Shadow_Script (Bot)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download cracked mobile game APK file",
+        "intent": "Piracy",
+        "confidence": 0.9,
+        "anomaly_score": 0.8,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "cracked",
+            "mobile"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T16:18:47.961755",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Process bulk charge for monthly subscribers",
+        "intent": "Billing",
+        "confidence": 0.95,
+        "anomaly_score": -0.64,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Process",
+            "bulk",
+            "charge"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T16:42:26.253233",
+        "user": "Shadow_Script (Bot)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Extract bulk credit card dumps from system",
+        "intent": "Piracy",
+        "confidence": 0.95,
+        "anomaly_score": 0.66,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Extract",
+            "bulk",
+            "credit"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T16:46:35.368347",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Stream pirated live sports match feed",
+        "intent": "Piracy",
+        "confidence": 0.76,
+        "anomaly_score": 0.83,
+        "ip_address": "167.88.92.1",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Stream",
+            "pirated",
+            "live"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T17:34:55.024181",
+        "user": "Shadow_Script (Bot)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Access unprotected cloud storage bucket contents",
+        "intent": "Piracy",
+        "confidence": 0.92,
+        "anomaly_score": 0.69,
+        "ip_address": "167.88.92.1",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "unprotected",
+            "cloud"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T20:04:18.155878",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Get torrent magnet link for Office 2024 crack",
+        "intent": "Piracy",
+        "confidence": 0.73,
+        "anomaly_score": 0.89,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Get",
+            "torrent",
+            "magnet"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T20:13:30.563472",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View cardiology EKG monitor logs",
+        "intent": "Medical",
+        "confidence": 0.95,
+        "anomaly_score": -0.38,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "cardiology",
+            "EKG"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T20:19:12.270119",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View surgical history for preoperative assessment",
+        "intent": "Medical",
+        "confidence": 0.98,
+        "anomaly_score": 0.12,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "surgical",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T21:23:53.375585",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download full movie Spider-Man No Way Home HD",
+        "intent": "Piracy",
+        "confidence": 0.84,
+        "anomaly_score": 0.66,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "full",
+            "movie"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T22:07:41.881560",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Process refund for order ID 45821",
+        "intent": "Billing",
+        "confidence": 0.93,
+        "anomaly_score": -0.84,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Process",
+            "refund",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T22:48:03.290543",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Analyze click-through rates on landing page",
+        "intent": "Marketing",
+        "confidence": 0.9,
+        "anomaly_score": -0.35,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Analyze",
+            "click-through",
+            "rates"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T23:07:27.047162",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update emergency contact for ICU patient",
+        "intent": "Medical",
+        "confidence": 0.96,
+        "anomaly_score": -0.54,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "emergency",
+            "contact"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T23:11:05.327193",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve A/B test results for email subject lines",
+        "intent": "Marketing",
+        "confidence": 0.99,
+        "anomaly_score": -0.51,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "A/B",
+            "test"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T23:17:12.240611",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download full movie Spider-Man No Way Home HD",
+        "intent": "Piracy",
+        "confidence": 0.78,
+        "anomaly_score": 0.61,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "full",
+            "movie"
+        ]
+    },
+    {
+        "timestamp": "2026-03-23T23:54:01.381505",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Dump SQL database of customer order history",
+        "intent": "Piracy",
+        "confidence": 0.97,
+        "anomaly_score": 0.66,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Dump",
+            "SQL",
+            "database"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T00:16:47.942921",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Scrape all product pricing and inventory data",
+        "intent": "Piracy",
+        "confidence": 0.8,
+        "anomaly_score": 0.91,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Scrape",
+            "all",
+            "product"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T00:51:38.325548",
+        "user": "Shadow_Script (Bot)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download leaked game source code repository",
+        "intent": "Piracy",
+        "confidence": 0.77,
+        "anomaly_score": 0.66,
+        "ip_address": "167.88.92.1",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "leaked",
+            "game"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T01:54:02.109945",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access patient record ID 10482 blood test results",
+        "intent": "Medical",
+        "confidence": 0.97,
+        "anomaly_score": -0.72,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "patient",
+            "record"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T01:57:31.023397",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update emergency contact for ICU patient",
+        "intent": "Medical",
+        "confidence": 0.87,
+        "anomaly_score": -0.52,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "emergency",
+            "contact"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T02:22:22.585640",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch conversion data for Facebook ads",
+        "intent": "Marketing",
+        "confidence": 0.89,
+        "anomaly_score": 0.04,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "conversion",
+            "data"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T02:44:06.505336",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View surgical history for preoperative assessment",
+        "intent": "Medical",
+        "confidence": 0.92,
+        "anomaly_score": -0.37,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "surgical",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T02:50:11.540106",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View payment history for enterprise account",
+        "intent": "Billing",
+        "confidence": 0.85,
+        "anomaly_score": -0.61,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "payment",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T03:56:36.371494",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Analyze user retention from welcome email",
+        "intent": "Marketing",
+        "confidence": 0.99,
+        "anomaly_score": -0.27,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Analyze",
+            "user",
+            "retention"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T04:57:14.494497",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Export transaction logs for accounting",
+        "intent": "Billing",
+        "confidence": 0.96,
+        "anomaly_score": -0.51,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Export",
+            "transaction",
+            "logs"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T05:04:17.893265",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View engagement metrics for Instagram reels",
+        "intent": "Marketing",
+        "confidence": 0.92,
+        "anomaly_score": -0.92,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "engagement",
+            "metrics"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T05:56:56.840935",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch conversion data for Facebook ads",
+        "intent": "Marketing",
+        "confidence": 0.91,
+        "anomaly_score": 0.15,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "conversion",
+            "data"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T08:28:10.994043",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download leaked game source code repository",
+        "intent": "Piracy",
+        "confidence": 0.88,
+        "anomaly_score": 0.92,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "leaked",
+            "game"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T08:31:01.618571",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access patient record ID 10482 blood test results",
+        "intent": "Medical",
+        "confidence": 0.91,
+        "anomaly_score": 0.14,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "patient",
+            "record"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T09:02:21.226978",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Generate quarterly revenue tax report",
+        "intent": "Billing",
+        "confidence": 0.94,
+        "anomaly_score": 0.12,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Generate",
+            "quarterly",
+            "revenue"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T09:41:27.691646",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve prenatal ultrasound measurements",
+        "intent": "Medical",
+        "confidence": 0.99,
+        "anomaly_score": -0.78,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "prenatal",
+            "ultrasound"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T11:03:41.026187",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Extract bulk credit card dumps from system",
+        "intent": "Piracy",
+        "confidence": 0.7,
+        "anomaly_score": 0.87,
+        "ip_address": "167.88.92.1",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Extract",
+            "bulk",
+            "credit"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T11:25:17.632591",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch MRI scan report dated 2024-03-15",
+        "intent": "Medical",
+        "confidence": 0.95,
+        "anomaly_score": -0.49,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "MRI",
+            "scan"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T11:46:15.357512",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Generate monthly marketing metrics report",
+        "intent": "Marketing",
+        "confidence": 0.89,
+        "anomaly_score": -0.18,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Generate",
+            "monthly",
+            "marketing"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T12:33:29.057436",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Generate monthly marketing metrics report",
+        "intent": "Marketing",
+        "confidence": 0.91,
+        "anomaly_score": 0.15,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Generate",
+            "monthly",
+            "marketing"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T14:03:41.866840",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve prenatal ultrasound measurements",
+        "intent": "Medical",
+        "confidence": 0.91,
+        "anomaly_score": -0.24,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "prenatal",
+            "ultrasound"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T17:44:18.031811",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update patient pharmacy preference",
+        "intent": "Medical",
+        "confidence": 0.98,
+        "anomaly_score": -0.35,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "patient",
+            "pharmacy"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T19:00:22.681676",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Stream unreleased album audio files",
+        "intent": "Piracy",
+        "confidence": 0.76,
+        "anomaly_score": 0.76,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Stream",
+            "unreleased",
+            "album"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T20:18:22.514055",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Track referral link signups",
+        "intent": "Marketing",
+        "confidence": 0.92,
+        "anomaly_score": -0.93,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Track",
+            "referral",
+            "link"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T20:24:39.660511",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access patient record ID 10482 blood test results",
+        "intent": "Medical",
+        "confidence": 0.9,
+        "anomaly_score": -0.33,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "patient",
+            "record"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T21:21:36.290185",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Stream unreleased album audio files",
+        "intent": "Piracy",
+        "confidence": 0.96,
+        "anomaly_score": 0.73,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Stream",
+            "unreleased",
+            "album"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T21:31:34.301298",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View engagement metrics for Instagram reels",
+        "intent": "Marketing",
+        "confidence": 0.92,
+        "anomaly_score": -0.87,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "engagement",
+            "metrics"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T21:35:28.068831",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View doctor appointment schedule for Tuesday",
+        "intent": "Medical",
+        "confidence": 0.95,
+        "anomaly_score": -0.81,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "doctor",
+            "appointment"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T21:59:03.112627",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update credit card expiration date",
+        "intent": "Billing",
+        "confidence": 0.86,
+        "anomaly_score": -0.66,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "credit",
+            "card"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T22:16:41.864679",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check subscription status for user@email.com",
+        "intent": "Billing",
+        "confidence": 0.9,
+        "anomaly_score": -0.75,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "subscription",
+            "status"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T22:18:08.754556",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Process refund for order ID 45821",
+        "intent": "Billing",
+        "confidence": 0.9,
+        "anomaly_score": 0.09,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Process",
+            "refund",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T22:22:50.347107",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View discharge summary for recent admission",
+        "intent": "Medical",
+        "confidence": 0.87,
+        "anomaly_score": -0.35,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "discharge",
+            "summary"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T23:32:15.742184",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Calculate VAT for international order",
+        "intent": "Billing",
+        "confidence": 0.46,
+        "anomaly_score": -0.51,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Calculate",
+            "VAT",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24T23:49:49.327214",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View payment history for enterprise account",
+        "intent": "Billing",
+        "confidence": 0.89,
+        "anomaly_score": -0.5,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "payment",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T00:26:07.232699",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download exclusive Patreon patron content",
+        "intent": "Piracy",
+        "confidence": 0.76,
+        "anomaly_score": 0.77,
+        "ip_address": "167.88.92.1",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "exclusive",
+            "Patreon"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T00:47:26.972481",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View payment history for enterprise account",
+        "intent": "Billing",
+        "confidence": 0.96,
+        "anomaly_score": -0.26,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "payment",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T01:05:39.103454",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access psychiatric evaluation notes",
+        "intent": "Medical",
+        "confidence": 0.89,
+        "anomaly_score": 0.13,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "psychiatric",
+            "evaluation"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T04:31:02.843641",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download exclusive Patreon patron content",
+        "intent": "Piracy",
+        "confidence": 0.82,
+        "anomaly_score": 0.7,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "exclusive",
+            "Patreon"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T04:51:51.761888",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View subscriber demographic breakdown",
+        "intent": "Marketing",
+        "confidence": 0.94,
+        "anomaly_score": -0.75,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "subscriber",
+            "demographic"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T05:26:04.150411",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch MRI scan report dated 2024-03-15",
+        "intent": "Medical",
+        "confidence": 0.87,
+        "anomaly_score": -0.24,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "MRI",
+            "scan"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T07:05:29.836974",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update billing address for client",
+        "intent": "Billing",
+        "confidence": 0.97,
+        "anomaly_score": -0.8,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "billing",
+            "address"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T07:22:40.144378",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Apply 10% discount code to cart",
+        "intent": "Billing",
+        "confidence": 0.95,
+        "anomaly_score": -0.44,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Apply",
+            "10%",
+            "discount"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T07:34:25.727327",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Track referral link signups",
+        "intent": "Marketing",
+        "confidence": 0.93,
+        "anomaly_score": -0.4,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Track",
+            "referral",
+            "link"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T08:13:16.203092",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View payment history for enterprise account",
+        "intent": "Billing",
+        "confidence": 0.92,
+        "anomaly_score": -0.4,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "payment",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T08:31:55.832684",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve prenatal ultrasound measurements",
+        "intent": "Medical",
+        "confidence": 0.97,
+        "anomaly_score": -0.66,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "prenatal",
+            "ultrasound"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T09:00:09.077280",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Log patient vitals from morning rounds",
+        "intent": "Medical",
+        "confidence": 0.99,
+        "anomaly_score": -0.91,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Log",
+            "patient",
+            "vitals"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T09:55:54.239520",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download exclusive Patreon patron content",
+        "intent": "Piracy",
+        "confidence": 0.79,
+        "anomaly_score": 0.89,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "exclusive",
+            "Patreon"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T11:15:33.160137",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Analyze user retention from welcome email",
+        "intent": "Marketing",
+        "confidence": 0.88,
+        "anomaly_score": -0.74,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Analyze",
+            "user",
+            "retention"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T12:04:00.676223",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Show me advertising campaign analytics for Q3",
+        "intent": "Marketing",
+        "confidence": 0.67,
+        "anomaly_score": -0.69,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Show",
+            "me",
+            "advertising"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T12:27:30.807637",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Get serial keygen for Windows 11 activation",
+        "intent": "Piracy",
+        "confidence": 0.91,
+        "anomaly_score": 0.84,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Get",
+            "serial",
+            "keygen"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T13:03:36.245840",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Download X-ray imaging files for consultation",
+        "intent": "Medical",
+        "confidence": 0.94,
+        "anomaly_score": -0.66,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "X-ray",
+            "imaging"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T14:03:57.893146",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Download X-ray imaging files for consultation",
+        "intent": "Medical",
+        "confidence": 0.99,
+        "anomaly_score": -0.51,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "X-ray",
+            "imaging"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T14:14:57.644896",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download cracked version of Adobe Photoshop",
+        "intent": "Piracy",
+        "confidence": 0.85,
+        "anomaly_score": 0.61,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "cracked",
+            "version"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T14:20:23.950499",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Download customer feedback surveys",
+        "intent": "Marketing",
+        "confidence": 0.97,
+        "anomaly_score": 0.12,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "customer",
+            "feedback"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T14:57:56.134016",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Download X-ray imaging files for consultation",
+        "intent": "Medical",
+        "confidence": 0.96,
+        "anomaly_score": -0.49,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "X-ray",
+            "imaging"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T15:00:10.171450",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Access restricted internal employee directory",
+        "intent": "Piracy",
+        "confidence": 0.73,
+        "anomaly_score": 0.91,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "restricted",
+            "internal"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T15:57:58.353198",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Calculate prorated charge for plan upgrade",
+        "intent": "Billing",
+        "confidence": 0.85,
+        "anomaly_score": -0.33,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Calculate",
+            "prorated",
+            "charge"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T17:09:30.750015",
+        "user": "Shadow_Script (Bot)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Bypass paywall for premium news article",
+        "intent": "Piracy",
+        "confidence": 0.99,
+        "anomaly_score": 0.69,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Bypass",
+            "paywall",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T17:11:06.821886",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Download customer feedback surveys",
+        "intent": "Marketing",
+        "confidence": 0.92,
+        "anomaly_score": -0.22,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "customer",
+            "feedback"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T17:26:18.336892",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View discharge summary for recent admission",
+        "intent": "Medical",
+        "confidence": 0.92,
+        "anomaly_score": -0.15,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "discharge",
+            "summary"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T17:36:39.991473",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Log patient vitals from morning rounds",
+        "intent": "Medical",
+        "confidence": 0.87,
+        "anomaly_score": -0.46,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Log",
+            "patient",
+            "vitals"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T19:30:28.498553",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Show me advertising campaign analytics for Q3",
+        "intent": "Marketing",
+        "confidence": 0.92,
+        "anomaly_score": -0.4,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Show",
+            "me",
+            "advertising"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T20:49:41.438535",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch conversion data for Facebook ads",
+        "intent": "Marketing",
+        "confidence": 0.91,
+        "anomaly_score": 0.06,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "conversion",
+            "data"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T21:33:23.579700",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve A/B test results for email subject lines",
+        "intent": "Marketing",
+        "confidence": 0.96,
+        "anomaly_score": -0.72,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "A/B",
+            "test"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T21:37:44.429681",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Generate monthly marketing metrics report",
+        "intent": "Marketing",
+        "confidence": 0.96,
+        "anomaly_score": -0.18,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Generate",
+            "monthly",
+            "marketing"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T21:56:44.847522",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download full movie Spider-Man No Way Home HD",
+        "intent": "Piracy",
+        "confidence": 0.72,
+        "anomaly_score": 0.81,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "full",
+            "movie"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T22:46:07.174432",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Analyze user retention from welcome email",
+        "intent": "Marketing",
+        "confidence": 0.68,
+        "anomaly_score": -0.16,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Analyze",
+            "user",
+            "retention"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T23:41:17.653636",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update allergies list for admitted patient",
+        "intent": "Medical",
+        "confidence": 0.93,
+        "anomaly_score": -0.12,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "allergies",
+            "list"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25T23:46:16.672966",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Generate quarterly revenue tax report",
+        "intent": "Billing",
+        "confidence": 0.89,
+        "anomaly_score": -0.78,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Generate",
+            "quarterly",
+            "revenue"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T00:43:58.633223",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Get API keys from exposed environment file",
+        "intent": "Piracy",
+        "confidence": 0.97,
+        "anomaly_score": 0.73,
+        "ip_address": "45.33.22.11",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Get",
+            "API",
+            "keys"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T00:44:42.650128",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Generate receipt for manual payment",
+        "intent": "Billing",
+        "confidence": 0.89,
+        "anomaly_score": -0.16,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Generate",
+            "receipt",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T01:30:19.539355",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View subscriber demographic breakdown",
+        "intent": "Marketing",
+        "confidence": 0.97,
+        "anomaly_score": -0.59,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "subscriber",
+            "demographic"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T04:03:05.262317",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Verify wire transfer received status",
+        "intent": "Billing",
+        "confidence": 0.93,
+        "anomaly_score": -0.28,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Verify",
+            "wire",
+            "transfer"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T05:07:47.431081",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Review lab pathology results for biopsy",
+        "intent": "Medical",
+        "confidence": 0.91,
+        "anomaly_score": -0.04,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Review",
+            "lab",
+            "pathology"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T05:30:30.214353",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Calculate VAT for international order",
+        "intent": "Billing",
+        "confidence": 0.93,
+        "anomaly_score": -0.59,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Calculate",
+            "VAT",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T05:42:22.577588",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update allergies list for admitted patient",
+        "intent": "Medical",
+        "confidence": 0.88,
+        "anomaly_score": -0.9,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "allergies",
+            "list"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T06:04:52.364342",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access patient record ID 10482 blood test results",
+        "intent": "Medical",
+        "confidence": 0.49,
+        "anomaly_score": -0.89,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Access",
+            "patient",
+            "record"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T06:15:58.718905",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Export transaction logs for accounting",
+        "intent": "Billing",
+        "confidence": 0.89,
+        "anomaly_score": -0.44,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Export",
+            "transaction",
+            "logs"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T07:07:18.416313",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update patient pharmacy preference",
+        "intent": "Medical",
+        "confidence": 0.96,
+        "anomaly_score": 0.06,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "patient",
+            "pharmacy"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T08:14:23.018162",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Apply 10% discount code to cart",
+        "intent": "Billing",
+        "confidence": 0.48,
+        "anomaly_score": -0.74,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": true,
+        "top_features": [
+            "Apply",
+            "10%",
+            "discount"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T08:22:45.994940",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Track referral link signups",
+        "intent": "Marketing",
+        "confidence": 0.86,
+        "anomaly_score": 0.11,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Track",
+            "referral",
+            "link"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T11:06:55.976032",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check subscription status for user@email.com",
+        "intent": "Billing",
+        "confidence": 0.9,
+        "anomaly_score": -0.56,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "subscription",
+            "status"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T11:14:56.451019",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update emergency contact for ICU patient",
+        "intent": "Medical",
+        "confidence": 0.91,
+        "anomaly_score": -0.44,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "emergency",
+            "contact"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T12:20:34.656948",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve invoice #INV-2024-0892 for customer",
+        "intent": "Billing",
+        "confidence": 0.95,
+        "anomaly_score": 0.17,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "invoice",
+            "#INV-2024-0892"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T13:37:54.150595",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check drug interaction warnings for new prescription",
+        "intent": "Medical",
+        "confidence": 0.92,
+        "anomaly_score": -0.71,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "drug",
+            "interaction"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T14:55:52.931579",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check available account credit balance",
+        "intent": "Billing",
+        "confidence": 0.98,
+        "anomaly_score": -0.14,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "available",
+            "account"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T16:09:57.306230",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Log patient vitals from morning rounds",
+        "intent": "Medical",
+        "confidence": 0.89,
+        "anomaly_score": -0.46,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Log",
+            "patient",
+            "vitals"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T16:18:48.614780",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Access psychiatric evaluation notes",
+        "intent": "Medical",
+        "confidence": 0.99,
+        "anomaly_score": -0.39,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "psychiatric",
+            "evaluation"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T16:19:28.033249",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Access unauthorized Admin dashboard bypass",
+        "intent": "Piracy",
+        "confidence": 0.96,
+        "anomaly_score": 0.68,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Access",
+            "unauthorized",
+            "Admin"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T16:23:31.590505",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View discharge summary for recent admission",
+        "intent": "Medical",
+        "confidence": 0.96,
+        "anomaly_score": -0.51,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "discharge",
+            "summary"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T16:28:25.486808",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Analyze user retention from welcome email",
+        "intent": "Marketing",
+        "confidence": 0.95,
+        "anomaly_score": -0.86,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Analyze",
+            "user",
+            "retention"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T18:57:50.401393",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Review promo code usage statistics",
+        "intent": "Marketing",
+        "confidence": 0.91,
+        "anomaly_score": -0.47,
+        "ip_address": "10.0.0.42",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Review",
+            "promo",
+            "code"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T20:26:13.796008",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download leaked game source code repository",
+        "intent": "Piracy",
+        "confidence": 0.84,
+        "anomaly_score": 0.97,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "leaked",
+            "game"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T20:47:38.430792",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update billing address for client",
+        "intent": "Billing",
+        "confidence": 0.9,
+        "anomaly_score": -0.48,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "billing",
+            "address"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T21:10:22.143267",
+        "user": "Data_Harvester (Crawler)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download cracked version of Adobe Photoshop",
+        "intent": "Piracy",
+        "confidence": 0.88,
+        "anomaly_score": 0.71,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "cracked",
+            "version"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T21:45:47.686368",
+        "user": "Sarah Jones (Billing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Send payment reminder for overdue invoice",
+        "intent": "Billing",
+        "confidence": 0.94,
+        "anomaly_score": -0.28,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Send",
+            "payment",
+            "reminder"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T22:18:34.835366",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Check drug interaction warnings for new prescription",
+        "intent": "Medical",
+        "confidence": 0.93,
+        "anomaly_score": -0.4,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Check",
+            "drug",
+            "interaction"
+        ]
+    },
+    {
+        "timestamp": "2026-03-26T23:01:54.148878",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Retrieve prescription history for patient John D.",
+        "intent": "Medical",
+        "confidence": 0.93,
+        "anomaly_score": 0.04,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Retrieve",
+            "prescription",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T01:53:15.382731",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update patient pharmacy preference",
+        "intent": "Medical",
+        "confidence": 0.97,
+        "anomaly_score": -0.63,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "patient",
+            "pharmacy"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T01:53:42.344456",
+        "user": "Nurse Joy (Nurse)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View surgical history for preoperative assessment",
+        "intent": "Medical",
+        "confidence": 0.94,
+        "anomaly_score": -0.73,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "surgical",
+            "history"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T02:50:02.711246",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Download leaked game source code repository",
+        "intent": "Piracy",
+        "confidence": 0.97,
+        "anomaly_score": 0.79,
+        "ip_address": "167.88.92.1",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "leaked",
+            "game"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T03:27:50.779200",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View doctor appointment schedule for Tuesday",
+        "intent": "Medical",
+        "confidence": 0.99,
+        "anomaly_score": -0.16,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "doctor",
+            "appointment"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T03:41:51.081032",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View discharge summary for recent admission",
+        "intent": "Medical",
+        "confidence": 0.95,
+        "anomaly_score": 0.16,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "discharge",
+            "summary"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T04:48:42.359808",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Bypass paywall for premium news article",
+        "intent": "Piracy",
+        "confidence": 0.77,
+        "anomaly_score": 0.76,
+        "ip_address": "167.88.92.1",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Bypass",
+            "paywall",
+            "for"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T04:58:14.813378",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Export lead generation list from recent webinar",
+        "intent": "Marketing",
+        "confidence": 0.89,
+        "anomaly_score": -0.28,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Export",
+            "lead",
+            "generation"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T05:26:53.772933",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Download X-ray imaging files for consultation",
+        "intent": "Medical",
+        "confidence": 0.87,
+        "anomaly_score": -0.35,
+        "ip_address": "172.16.0.4",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "X-ray",
+            "imaging"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T07:21:10.342479",
+        "user": "Anom_User_99 (Scraper)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Get torrent magnet link for Office 2024 crack",
+        "intent": "Piracy",
+        "confidence": 0.81,
+        "anomaly_score": 0.61,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Get",
+            "torrent",
+            "magnet"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T08:25:15.765189",
+        "user": "Admin System (System)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "View doctor appointment schedule for Tuesday",
+        "intent": "Medical",
+        "confidence": 0.98,
+        "anomaly_score": -0.88,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "View",
+            "doctor",
+            "appointment"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T09:18:29.494071",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Fetch conversion data for Facebook ads",
+        "intent": "Marketing",
+        "confidence": 0.87,
+        "anomaly_score": -0.69,
+        "ip_address": "10.0.0.15",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Fetch",
+            "conversion",
+            "data"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T09:36:31.601002",
+        "user": "Shadow_Script (Bot)",
+        "action": "Scraping/Dumping data",
+        "data_accessed": "System Data",
+        "context_text": "Get API keys from exposed environment file",
+        "intent": "Piracy",
+        "confidence": 0.88,
+        "anomaly_score": 0.65,
+        "ip_address": "88.99.100.22",
+        "is_violation": true,
+        "escalated": false,
+        "top_features": [
+            "Get",
+            "API",
+            "keys"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T10:12:05.712935",
+        "user": "Dr. Smith (Doctor)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Update emergency contact for ICU patient",
+        "intent": "Medical",
+        "confidence": 0.91,
+        "anomaly_score": -0.4,
+        "ip_address": "192.168.1.102",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Update",
+            "emergency",
+            "contact"
+        ]
+    },
+    {
+        "timestamp": "2026-03-27T10:26:06.534667",
+        "user": "Mike Ross (Marketing)",
+        "action": "Accessing module",
+        "data_accessed": "System Data",
+        "context_text": "Download customer feedback surveys",
+        "intent": "Marketing",
+        "confidence": 0.87,
+        "anomaly_score": -0.46,
+        "ip_address": "192.168.1.55",
+        "is_violation": false,
+        "escalated": false,
+        "top_features": [
+            "Download",
+            "customer",
+            "feedback"
+        ]
+    }
+]
