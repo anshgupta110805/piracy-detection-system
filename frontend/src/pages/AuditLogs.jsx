@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
+
 import { Download, Search, Trash2, Eye } from 'lucide-react';
 import toast from 'react-hot-toast';
 
@@ -10,7 +12,7 @@ const AuditLogs = ({ token }) => {
   const itemsPerPage = 20;
 
   useEffect(() => {
-    fetch('http://localhost:8000/history', { headers: { 'Authorization': `Bearer ${token}` } })
+    fetch(`${API_BASE_URL}/history`, { headers: { 'Authorization': `Bearer ${token}` } })
       .then(r => r.json())
       .then(d => setLogs(d));
   }, [token]);

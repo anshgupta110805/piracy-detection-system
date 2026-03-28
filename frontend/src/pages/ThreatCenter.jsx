@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
+
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShieldAlert, Ban, Search, CheckCircle, Clock } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
@@ -11,7 +13,7 @@ const ThreatCenter = ({ token }) => {
   const [investigating, setInvestigating] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:8000/history', { headers: { 'Authorization': `Bearer ${token}` } })
+    fetch(`${API_BASE_URL}/history`, { headers: { 'Authorization': `Bearer ${token}` } })
       .then(r => r.json())
       .then(data => {
         const violations = data.filter(d => d.is_violation || d.escalated);

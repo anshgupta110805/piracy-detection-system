@@ -15,6 +15,8 @@ import NetworkGraph from './pages/NetworkGraph';
 import UserProfile from './pages/UserProfile';
 
 import { motion } from 'framer-motion';
+import { API_BASE_URL } from './config';
+
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('access_token') || null);
@@ -30,7 +32,7 @@ function App() {
     formData.append('password', password);
     
     try {
-      const res = await fetch('http://localhost:8000/login', {
+      const res = await fetch(`${API_BASE_URL}/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: formData

@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { WS_BASE_URL } from '../config';
+
 
 export const useDemoData = (token) => {
   const [auditLogs, setAuditLogs] = useState([]);
@@ -21,7 +23,7 @@ export const useDemoData = (token) => {
     // Connect to actual WebSocket for live demo
     if (token) {
       setIsLive(true);
-      const ws = new WebSocket('ws://localhost:8000/ws');
+      const ws = new WebSocket(WS_BASE_URL);
       ws.onmessage = (e) => {
         const newLog = JSON.parse(e.data);
         setAuditLogs(prev => {
