@@ -19,7 +19,7 @@ import { API_BASE_URL } from './config';
 
 
 function App() {
-  const [token, setToken] = useState(localStorage.getItem('access_token') || null);
+  const [token, setToken] = useState('DUMMY_TOKEN');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [isLoggingIn, setIsLoggingIn] = useState(false);
@@ -54,48 +54,7 @@ function App() {
     localStorage.removeItem('access_token');
   };
 
-  if (!token) {
-    return (
-      <div className="layout" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg-main)' }}>
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
-          className="glass-panel" style={{ width: '100%', maxWidth: '420px', padding: '3rem 2rem' }}
-        >
-          <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            <h1 style={{ color: 'var(--brand-primary)', fontSize: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
-              <span className="loaderSpinner" style={{ width: '18px', height: '18px', borderWidth: '2px' }}></span> 
-              VertexGuard
-            </h1>
-            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: '0.5rem' }}>AI Data Privacy & Security Monitoring</p>
-          </div>
-          <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
-            <div>
-              <input 
-                type="text" 
-                placeholder="Username (admin)" 
-                value={username} 
-                onChange={e => setUsername(e.target.value)} 
-                required
-              />
-            </div>
-            <div>
-              <input 
-                type="password" 
-                placeholder="Password (admin)" 
-                value={password} 
-                onChange={e => setPassword(e.target.value)} 
-                required
-              />
-            </div>
-            <button type="submit" className="btn-primary" style={{ justifyContent: 'center', padding: '1rem', marginTop: '1rem' }} disabled={isLoggingIn}>
-              {isLoggingIn ? "Authenticating..." : "Access Secure Dashboard"}
-            </button>
-          </form>
-        </motion.div>
-      </div>
-    );
-  }
-
+  // Login system removed as requested. Always showing the secure dashboard.
   return (
     <Router>
       <div className="layout">
