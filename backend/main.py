@@ -18,7 +18,8 @@ from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 
 # 1. DATABASE SETUP
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./vertexguard.db")
+# Note: Using in-memory database for Vercel deployment to ensure compatibility
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///:memory:")
 connect_args = {"check_same_thread": False} if "sqlite" in DATABASE_URL else {}
 engine = create_engine(DATABASE_URL, connect_args=connect_args)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
@@ -72,8 +73,16 @@ def verify_token(token: str = Depends(oauth2_scheme)):
 
 @app.post("/login")
 def login(req: LoginRequest):
-    if req.username == "admin" and req.password == "admin":
+    print(f"Login attempt received for user: {req.username}")
+    if req.username.lower() == "admin" and req.password == "admin":
         return {"access_token": create_access_token({"sub": req.username}), "token_type": "bearer"}
+    
+    # Optional debug for local dev or log inspection
+    if req.username.lower() != "admin":
+        print(f"Invalid username: {req.username}")
+    elif req.password != "admin":
+        print("Invalid password")
+        
     raise HTTPException(status_code=400, detail="Incorrect username or password")
 
 # 4. BOT FINGERPRINTING MIDDLEWARE

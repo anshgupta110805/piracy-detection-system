@@ -5,3 +5,7 @@ numpy
 pandas
 python-multipart
 requests
+sqlalchemy
+pydantic
+PyJWT
+slowapi
