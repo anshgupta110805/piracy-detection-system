@@ -27,15 +27,11 @@ function App() {
   const handleLogin = async (e) => {
     e.preventDefault();
     setIsLoggingIn(true);
-    const formData = new URLSearchParams();
-    formData.append('username', username);
-    formData.append('password', password);
-    
     try {
       const res = await fetch(`${API_BASE_URL}/login`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: formData
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
       });
       if (res.ok) {
         const data = await res.json();

@@ -71,9 +71,9 @@ def verify_token(token: str = Depends(oauth2_scheme)):
         raise HTTPException(status_code=401, detail="Invalid token")
 
 @app.post("/login")
-def login(form_data: OAuth2PasswordRequestForm = Depends()):
-    if form_data.username == "admin" and form_data.password == "admin":
-        return {"access_token": create_access_token({"sub": form_data.username}), "token_type": "bearer"}
+def login(req: LoginRequest):
+    if req.username == "admin" and req.password == "admin":
+        return {"access_token": create_access_token({"sub": req.username}), "token_type": "bearer"}
     raise HTTPException(status_code=400, detail="Incorrect username or password")
 
 # 4. BOT FINGERPRINTING MIDDLEWARE
@@ -91,6 +91,10 @@ class MonitorRequest(BaseModel):
     action: str
     data_accessed: str
     context_text: str
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str
 
 class AlertPayload(BaseModel):
     violation: bool
